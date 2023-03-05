@@ -1,0 +1,29 @@
+form {
+  background: rgba(255, 255, 255, 0.039);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  border: 1px solid #0d6efd;
+}
+
+.container {
+  height: 90vh;
+}
+
+label {
+  color: white;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+  font-size: 24px;
+  color: white;
+}
+
+.input input:focus label {
+  color: black;
+}

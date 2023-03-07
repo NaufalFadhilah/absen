@@ -1,13 +1,13 @@
 <?php
-session_start();
-if(isset($_SESSION['data'])){
-    if($_SESSION['role'] == "admin"){
-        header("location:admin/");
-    } else {
-        header("location:siswa/");
-    }
-}
-?>
+// session_start();
+// if(isset($_SESSION['data'])){
+//     if($_SESSION['role'] == "admin"){
+//         header("location:admin/");
+//     } else {
+//         header("location:siswa/");
+//     }
+// }
+?> 
 
 
 <!DOCTYPE html>

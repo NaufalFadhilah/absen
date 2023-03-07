@@ -1,0 +1,9 @@
+table {
+  overflow-y: scroll !important;
+  height: 100px !important;
+  display: block !important;
+}
+tbody {
+  height: 50vh !important;
+  overflow: scroll;
+}

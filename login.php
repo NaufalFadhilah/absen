@@ -18,10 +18,10 @@ if(isset($_POST['login'])){
             $_SESSION['nama'] = $data['nama'];
             $_SESSION['role'] = $data['role'];
             $_SESSION['data'] = "login";
-            if($_data['role'] = 'admin'){
-                header("location:admin/");
-            } else {
-                header("location:siswa/");
+            if($data['role'] == 'admin'){
+                header("location:dashboard/admin/");
+            } else{
+                header("location:dashboard/siswa/");
             }
         }
     } else {
